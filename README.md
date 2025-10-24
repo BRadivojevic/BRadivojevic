@@ -41,7 +41,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 
 ---
 
-### [DocuSign Automation](https://github.com/BRadivojevic/docusign-integration-php.php)
+### [DocuSign Automation](https://github.com/BRadivojevic/docusign-integration-php)
 > Integrated DocuSign (OAuth2 + webhooks) for contract digital signing.  
 > Reduced contract turnaround from 3 days → same-day completion.
 
