@@ -43,7 +43,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 **Elasticsearch Tables**
 | Modules Reindex Table | Global Reindex Table |
 |:--|:--|
-| ![ES reindex modules](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-sc-1.png) | ![ES global reindex table](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-sc-2.png) |
+| ![ES reindex modules](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-sc-1.png) | ![ES global reindex table](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-sc-3.png) |
 
 **Dashboards & KPIs**
 | Fleet Dashboard | Sales KPI Dashboard |
