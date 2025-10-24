@@ -5,7 +5,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
 ### [SEF E-Invoice Integration](https://github.com/BRadivojevic/sef-einvoice-php)
 > Automated XML e-invoice generation, validation, and SEF API submission.  
@@ -21,7 +21,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 **UI Screenshots**
 | Outbound | Inbound | Invoice View |
 |:--|:--|:--|
-| ![Outbound invoices](.docs/outbound-invoice-sc-1.png) | ![Inbound invoices](.docs/inbound-invoice-sc-2.png) | ![Invoice details](.docs/invoice-sc-1.png) |
+| ![Outbound invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/outbound-invoice-sc-1.png) | ![Inbound invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/inbound-invoice-sc-2.png) | ![Invoice details](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/invoice-sc-1.png) |
 
 ---
 
@@ -37,7 +37,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 **UI Preview**
 | Dashboard | Global Reindex Table |
 |:--|:--|
-| ![ES dashboard](.docs/elasticsearch-dash-sc-1.png) | ![Reindex table](.docs/elasticsearch-sc-3.png) |
+| ![ES dashboard](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-dash-sc-1.png) | ![Reindex table](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-dash-sc-2.png) |
 
 ---
 
@@ -49,16 +49,16 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 
 ---
 
-## Skills
+## 🧠 Skills
 **Languages / Frameworks:** PHP 8 · SQL Server · Elasticsearch · jQuery · AJAX  
 **APIs & Integrations:** SEF API · DocuSign · Pantheon ERP · Postmark · TecAlliance · OpenAI · Google  
-**DevOps:** GitHub Actions 
+**DevOps:** GitHub Actions  
 **Tools:** Postman · Git · Tabulator.js · XML processing  
 *(Expanding into Python/FastAPI & cloud data pipelines.)*
 
 ---
 
-## About Me
+## 🧩 About Me
 Backend engineer specializing in enterprise automation and ERP integrations.  
 Experienced in leading small backend teams, designing scalable data pipelines, and optimizing search infrastructure.
 
