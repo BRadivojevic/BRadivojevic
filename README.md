@@ -21,7 +21,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 **UI Screenshots**
 | Outbound | Inbound | Invoice View |
 |:--|:--|:--|
-| ![Outbound invoices](docs/outbound-invoice-sc-1.png) | ![Inbound invoices](docs/inbound-invoice-sc-1.png) | ![Invoice details](docs/invoice-sc-1.png) |
+| ![Outbound invoices](.docs/outbound-invoice-sc-1.png) | ![Inbound invoices](.docs/inbound-invoice-sc-2.png) | ![Invoice details](.docs/invoice-sc-1.png) |
 
 ---
 
@@ -37,7 +37,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 **UI Preview**
 | Dashboard | Global Reindex Table |
 |:--|:--|
-| ![ES dashboard](docs/elasticsearch-dash-sc-1.png) | ![Reindex table](docs/elasticsearch-sc-3.png) |
+| ![ES dashboard](.docs/elasticsearch-dash-sc-1.png) | ![Reindex table](.docs/elasticsearch-sc-3.png) |
 
 ---
 
