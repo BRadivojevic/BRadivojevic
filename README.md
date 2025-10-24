@@ -21,7 +21,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 **UI Screenshots**
 | Outbound | Inbound | Invoice View |
 |:--|:--|:--|
-| ![Outbound invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/outbound-invoice-sc-1.png) | ![Inbound invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/inbound-invoice-sc-2.png) | ![Invoice details](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/invoice-sc-1.png) |
+| ![Outbound invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/outbound-invoice-sc-1.png) | ![Outbound invoice details](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/invoice-sc-1.png) | ![Inbound Invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/inbound-invoice-sc-1.png) | ![Inbound Invoice details](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/inbound-invoice-sc-2.png)
 
 ---
 
