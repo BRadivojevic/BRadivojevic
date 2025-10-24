@@ -16,36 +16,47 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 - Status tracking and filtering
 - Inbound invoice management with approve/disapprove logic
 - XML/PDF attachments, Tabulator.js interface, and full SEF sync
-- Automated fetch of unseen SEF invoices
+- Automated fetch of unseen SEF invoices from SEF API
 
 **UI Screenshots**
-| Outbound | Inbound | Invoice View |
-|:--|:--|:--|
-| ![Outbound invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/outbound-invoice-sc-1.png) | ![Outbound invoice details](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/invoice-sc-1.png) | ![Inbound Invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/inbound-invoice-sc-1.png) | ![Inbound Invoice details](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/inbound-invoice-sc-2.png)
+
+| Outbound Invoices | Outbound Invoice Details |
+|:--|:--|
+| ![Outbound invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/outbound-invoice-sc-1.png) | ![Outbound invoice details](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/invoice-sc-1.png) |
+
+| Inbound Invoices | Inbound Invoice Details |
+|:--|:--|
+| ![Inbound invoices](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/inbound-invoice-sc-1.png) | ![Inbound invoice details](https://raw.githubusercontent.com/BRadivojevic/sef-einvoice-php/main/docs/inbound-invoice-sc-2.png) |
 
 ---
 
 ### [Elasticsearch Reindex Worker](https://github.com/BRadivojevic/php-elasticsearch-reindex-workers)
 > High-throughput reindexing system for Elasticsearch indexes and SQL hybrid views.  
-> Processes 1M+ docs per job with zero downtime.
+> Processes 1M+ documents per job with zero downtime.
 
 **Highlights**
-- Parallelized, module-based reindexing
-- Central dashboard for clients & custom tables
-- Error logging and validation checks
+- Parallelized, module-based reindexing with automatic dependency handling
+- Central dashboard for all client modules
+- Error logging and detailed validation checks
+- Real-time monitoring of KPI dashboards and reindex statistics
 
-**UI Preview**
-| Dashboard | Global Reindex Table |
+**Elasticsearch Tables**
+| Modules Reindex Table | Global Reindex Table |
 |:--|:--|
-| ![ES dashboard](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-dash-sc-1.png) | ![Reindex table](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-dash-sc-2.png) |
+| ![ES reindex modules](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-sc-1.png) | ![ES global reindex table](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-sc-2.png) |
+
+**Dashboards & KPIs**
+| Fleet Dashboard | Sales KPI Dashboard |
+|:--|:--|
+| ![Fleet dashboard](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-dash-sc-1.png) | ![Sales KPI dashboard](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-dash-sc-2.png) |
 
 ---
 
 ### [DocuSign Automation](https://github.com/BRadivojevic/docusign-integration-php)
-> Integrated DocuSign (OAuth2 + webhooks) for contract digital signing.  
+> Integrated DocuSign (OAuth2 + webhooks) for digital contract signing.  
 > Reduced contract turnaround from 3 days → same-day completion.
 
-**Tech:** PHP 8 · SQL Server · Elasticsearch · REST API · XML
+**Tech Stack:** PHP 8 · SQL Server · Elasticsearch · REST API · XML
 
 ---
 
