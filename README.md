@@ -7,7 +7,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 
 ## Featured Projects
 
-### [SEF E-Invoice Integration](https://github.com/BRadivojevic/sef-einvoice-integration)
+### [SEF E-Invoice Integration](https://github.com/BRadivojevic/sef-einvoice-php)
 > Automated XML e-invoice generation, validation, and SEF API submission.  
 > Handles 20K+ invoices per month with <1% error rate.
 
@@ -25,7 +25,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 
 ---
 
-### [Elasticsearch Reindex Worker](https://github.com/BRadivojevic/elasticsearch-reindex-worker)
+### [Elasticsearch Reindex Worker](https://github.com/BRadivojevic/php-elasticsearch-reindex-workers)
 > High-throughput reindexing system for Elasticsearch indexes and SQL hybrid views.  
 > Processes 1M+ docs per job with zero downtime.
 
@@ -41,7 +41,7 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 
 ---
 
-### [DocuSign Automation](https://github.com/BRadivojevic/docusign-automation)
+### [DocuSign Automation](https://github.com/BRadivojevic/docusign-integration.php)
 > Integrated DocuSign (OAuth2 + webhooks) for contract digital signing.  
 > Reduced contract turnaround from 3 days → same-day completion.
 
