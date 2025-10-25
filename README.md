@@ -1,4 +1,5 @@
-# Boško Radivojević – Backend Engineer
+
+# Boško Radivojević — Backend & Automation Engineer
 
 Building enterprise-grade backend systems for ERP, invoicing, and automation across 5 Balkan markets.  
 Currently **Head of Software Development @ Elastyc Net** (Belgrade).
@@ -6,6 +7,10 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 ---
 
 ## 🚀 Featured Projects
+
+A selection of production systems built for enterprise automation, document workflows, and data pipelines.
+
+---
 
 ### [SEF E‑Invoice Integration](https://github.com/BRadivojevic/sef-einvoice-php)
 > Automated XML e‑invoice generation, validation, and SEF API submission.  
@@ -32,17 +37,11 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 
 ---
 
-
-# [Elasticsearch Reindex Worker](https://github.com/BRadivojevic/php-elasticsearch)
+### [Elasticsearch Reindex Worker](https://github.com/BRadivojevic/php-elasticsearch)
 > High-throughput reindexing and data ingestion system for Elasticsearch 7.17.x and SQL Server 2019+.  
 > Handles millions of rows per job with zero downtime, background workers, and idempotent upserts via `acckey`.
 
-## 🧠 Overview
-This project is a production-grade PHP reindexing system built for large SQL Server datasets synchronized into Elasticsearch.  
-It automatically batches records, retries failed bulk operations, and uses background workers to bypass 524/534 Cloudflare timeouts.  
-It was engineered for resilience, scalability, and correctness in real business environments.
-
-## ⚙️ Highlights
+**Highlights**
 - 🚀 Background workers — long jobs run outside HTTP, safe from Cloudflare limits  
 - 🧩 Batching with ROW_NUMBER() / OFFSET — handles multi-million-row tables  
 - 🔁 Idempotent upserts — every document uses acckey as Elasticsearch _id  
@@ -51,91 +50,17 @@ It was engineered for resilience, scalability, and correctness in real business 
 - 🧹 Normalization of dates, nulls, and diacritics  
 - 📊 JSON logging for dashboards and traceability  
 
-## 🚀 Quick Start
-
-1️⃣ Install dependencies
-```bash
-composer install
-```
-
-2️⃣ Copy `.env.example` → `.env`
-```env
-ES_HOSTS=http://localhost:9200
-MSSQL_HOST=localhost
-MSSQL_DB=benussi
-MSSQL_USER=sa
-MSSQL_PASSWORD=YourStrong!Passw0rd
-```
-
-3️⃣ Enqueue a reindex job
-```bash
-POST /public/queue-reindex.php
-{
-  "source_index": "benussi_flota_source",
-  "dest_index": "benussi_flota_target",
-  "tenant": "flota"
-}
-```
-
-4️⃣ Run the background worker
-```bash
-php workers/reindex_worker.php
-```
-
-or directly import SQL data:
-```bash
-php workers/insert_bulk_worker.php index=benussi_flota sql=examples/select_batch_row_number.sql start=1 end=10000
-```
-
-## 🧩 Data Normalization
-All SQL data is sanitized before indexing:
-- Empty or 1900-01-01 → null  
-- Diacritics normalized (č → c, ž → z, đ → dj)  
-- Trims and type normalization for safe ingestion
-
-## 🪣 Dead-Letter Handling
-Invalid or failed documents (e.g., missing acckey, ES bulk errors) are saved to:
-```
-var/deadletter.jsonl
-```
-Each line contains the failed document and error cause — perfect for post-analysis.
-
-## 🧱 Example SQL Batching
-
-**ROW_NUMBER version**
-```sql
-WITH src AS (
-  SELECT ROW_NUMBER() OVER (ORDER BY [Id]) AS rn, *
-  FROM dbo.LargeTable WITH (NOLOCK)
-)
-SELECT * FROM src
-WHERE rn BETWEEN ? AND ?;
-```
-
-**OFFSET/FETCH version**
-```sql
-SELECT *
-FROM dbo.LargeTable WITH (NOLOCK)
-ORDER BY [Id]
-OFFSET ? ROWS FETCH NEXT ? ROWS ONLY;
-```
-
-## 📊 Dashboards & KPIs
+**Dashboards & KPIs**
 | Fleet Dashboard | Sales KPI Dashboard |
 |:--|:--|
 | ![Fleet dashboard](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-dash-sc-1.png) | ![Sales KPI dashboard](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-dash-sc-2.png) |
 
-## 🗂 Elasticsearch Tables
+**Elasticsearch Tables**
 | Modules Reindex Table | Global Reindex Table |
 |:--|:--|
 | ![ES reindex modules](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-sc-1.png) | ![ES global reindex table](https://raw.githubusercontent.com/BRadivojevic/php-elasticsearch-reindex-workers/main/docs/elasticsearch-sc-3.png) |
 
-## 👤 Author
-**Boško Radivojević**  
-[github.com/BRadivojevic](https://github.com/BRadivojevic)  
-
-MIT License © 2025
-
+---
 
 ### [DocuSign Integration (PHP)](https://github.com/BRadivojevic/docusign-integration-php)
 > Advanced DocuSign automation platform integrating OAuth2, envelope queuing, and secure webhooks.  
@@ -163,7 +88,8 @@ MIT License © 2025
 
 ## 🧩 About Me
 Backend engineer specializing in enterprise automation and ERP integrations.  
-Experienced in leading small backend teams, designing scalable data pipelines, and optimizing search infrastructure.
+Experienced in leading small backend teams, designing scalable data pipelines, and optimizing search infrastructure.  
+Passionate about reliability, clean architecture, and automating the boring stuff.
 
 📍 Belgrade, Serbia (UTC+1)  
 📧 [b.radivojevic00@gmail.com](mailto:b.radivojevic00@gmail.com)  
