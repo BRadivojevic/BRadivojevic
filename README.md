@@ -7,16 +7,18 @@ Currently **Head of Software Development @ Elastyc Net** (Belgrade).
 
 ## 🚀 Featured Projects
 
-### [SEF E-Invoice Integration](https://github.com/BRadivojevic/sef-einvoice-php)
-> Automated XML e-invoice generation, validation, and SEF API submission.  
-> Handles 20K+ invoices per month with <1% error rate.
+### [SEF E‑Invoice Integration](https://github.com/BRadivojevic/sef-einvoice-php)
+> Automated XML e‑invoice generation, validation, and SEF API submission.  
+> Handles over 20K invoices monthly with less than 1% error rate.
 
-**Key Features**
-- Outbound invoice handling (send one-by-one or in bulk)
-- Status tracking and filtering
-- Inbound invoice management with approve/disapprove logic
-- XML/PDF attachments, Tabulator.js interface, and full SEF sync
-- Automated fetch of unseen SEF invoices from SEF API
+**Highlights**
+- Outbound invoice management (send individually or in bulk)
+- Real‑time status tracking and filtering
+- Inbound invoice management with approve/reject workflows
+- XML/PDF attachments and full SEF synchronization
+- Automated retrieval of unseen invoices directly from SEF API
+
+**Tech Stack:** PHP 8 · Guzzle 7 · XML / UBL 2.1 · JSON Logging · SQL Server / SQLite
 
 **UI Screenshots**
 
