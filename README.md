@@ -134,11 +134,19 @@ OFFSET ? ROWS FETCH NEXT ? ROWS ONLY;
 
 MIT License © 2025
 
-### [DocuSign Automation](https://github.com/BRadivojevic/docusign-integration-php)
-> Integrated DocuSign (OAuth2 + webhooks) for digital contract signing.  
-> Reduced contract turnaround from 3 days → same-day completion.
 
-**Tech Stack:** PHP 8 · SQL Server · Elasticsearch · REST API · XML
+### [DocuSign Integration (PHP)](https://github.com/BRadivojevic/docusign-integration-php)
+> Advanced DocuSign automation platform integrating OAuth2, envelope queuing, and secure webhooks.  
+> Enabled same‑day digital contract completion and background‑safe processing for large-scale deployments.
+
+**Highlights**
+- Full OAuth2 flow (authorization code with PKCE support)
+- Background envelope worker with retry and dead‑letter handling
+- Secure webhook validation (HMAC SHA‑256)
+- Supports file and SQLite job stores
+- Designed for production DocuSign environments
+
+**Tech Stack:** PHP 8 · DocuSign SDK 6.x · Guzzle · SQLite / File Queue · REST API · JSON Logging
 
 ---
 
